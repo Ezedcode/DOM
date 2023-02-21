@@ -6,11 +6,11 @@ document.body.appendChild(message);
 
 //Modificar um elemento
 let paragrafo = document.getElementById('paragrafo');
-paragrafo.innerHTML = `Oi tudo bem? <br/><br/>"Messangem emitida via JavaScrip"!`;
+paragrafo.innerHTML = `Oi tudo bem? <br/><br/>"Messangem 
+emitida via JavaScrip"!`;
 
 //Remover um elemento
 let lista = document.querySelector("ul");
-
 function remove(index) {
     lista.removeChild(lista.childNodes[index]);
 }
